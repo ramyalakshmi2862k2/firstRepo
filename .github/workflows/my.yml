@@ -1,0 +1,10 @@
+name : hi
+on : push 
+
+jobs :
+  hi :
+    runs-on : ubuntu-latest 
+
+    steps :
+    - name : the file 
+      run : echo " hi this is git hub action"
