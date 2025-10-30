@@ -1,7 +1,7 @@
 name : py projeect
 on : push 
 
-job : 
+jobs : 
   game :
     runs-on : ubuntu-latest
       
